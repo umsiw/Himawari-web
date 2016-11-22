@@ -265,7 +265,7 @@
 		}
 		
 		function infls(){
-			var lsinf = ["Rainfall Rate","Cloud Top Temperature","Sea Surface Temperature","Land Surface Temperature"];
+			var lsinf = ["Rainfall Rate","Cloud Top Temperature","Sea Surface Temperature"];
 			var src = "";
 			for (var i = 0; i < lsinf.length; i++){
 				src += "<div class='hvr' id='"+lsinf[i]+"' align='left' onmousedown='chinf(this.id);'>"+lsinf[i]+"</div>";
