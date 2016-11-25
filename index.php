@@ -227,6 +227,62 @@
 				opacity: 0.8;
 				background: rgb(200, 200, 200);
 			}
+			
+			@media screen and (max-width:480px) {
+				div#infotype {
+					/* position: relative; */
+					left: 5px;
+					width: 180px;
+					height: 29px;
+				}
+				div#infotyperes {
+					left: 185px;
+					width: 180px;
+					top: 10px;
+				}
+				div#waktu {
+					width: 130px;
+					left: 5px;
+					height: 29px;
+					top: 45px;
+				}
+				div#waktures {
+					width: 130px;
+					left: 135px;
+					top: 45px;
+					z-index: 1000;
+				}
+				div#interval {
+					left: 5px;
+					height: 29px;
+					top: 80px;
+				}
+				div#intervalres {
+					left: 135px;
+					top: 80px;
+					z-index: 1000;
+				}
+				div#play {
+					left: 5px;
+					height: 29px;
+					top: 115px;
+				}
+				div#previous {
+					left: 50px;;
+					height: 29px;
+					top: 115px;
+				}
+				div#next {
+					left: 95px;
+					height: 29px;
+					top: 115px;
+				}
+				div#headinglegenda, #legenda { 
+					width:250px;
+					height:20px;
+					margin-left: 5px;
+				}
+			}
 		</style>
 		<script src="http://maps.google.com/maps/api/js?sensor=false&v=3.7"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
